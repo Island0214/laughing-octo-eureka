@@ -41,11 +41,16 @@
     background-color: rgb(246, 246, 238);
     width: 100%;
     position: relative;
-    height: 60px;
+    min-height: 60px;
 
   }
   .nav-wrapper /deep/ .el-menu {
     text-align: center;
+    position: relative;
+    display: inline-block;
+    /*width: 100%;*/
+  }
+  .nav-wrapper .el-menu /deep/ .el-menu-item{
     position: relative;
     display: inline-block;
   }

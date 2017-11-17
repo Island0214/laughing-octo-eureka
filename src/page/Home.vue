@@ -3,7 +3,7 @@
   <div>
     <Header/>
     <nav-bar/>
-    <main/>
+    <Main/>
     <Footer/>
   </div>
 

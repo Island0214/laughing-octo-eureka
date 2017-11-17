@@ -1,6 +1,6 @@
 <template>
   <div class="footer-wrapper">
-    <el-row :gutter="20">
+    <el-row :gutter="20" style="margin-bottom: 0">
       <!--<el-col :span="12">-->
       <!--<div class="grid-content bg-purple">-->
       <!--</div>-->
@@ -27,9 +27,11 @@
 
 <style>
   .footer-wrapper {
-    background-color: #eee;
+    /*background-color: #eee;*/
     position: relative;
     width: 100%;
+    background-color: rgb(246, 246, 238);
+
   }
 
   .el-row {
@@ -46,7 +48,8 @@
   }
 
   .bg-purple {
-    background: #d3dce6;
+    /*background: #d3dce6;*/
+
   }
 
   .bg-purple-light {
