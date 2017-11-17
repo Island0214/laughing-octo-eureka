@@ -4,7 +4,7 @@
     <Header/>
     <nav-bar/>
     <main/>
-    <footer/>
+    <Footer/>
   </div>
 
 </template>
