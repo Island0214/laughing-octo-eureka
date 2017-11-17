@@ -2,23 +2,28 @@
   <div class="footer-wrapper">
     <el-row :gutter="20">
       <!--<el-col :span="12">-->
-        <!--<div class="grid-content bg-purple">-->
-        <!--</div>-->
+      <!--<div class="grid-content bg-purple">-->
+      <!--</div>-->
       <!--</el-col>-->
       <el-col :span="24">
         <div class="grid-content bg-purple">
-          <p>S.Y.VENTURES CAPITAL SARL</p>
-
-          <p> Rabat.Morocco</p>
-          <p> Office:   Villa Mounia, N° 146, O.L.M. Souissi 2 ; CP 10100 ;  Rabat, Maroc</p>
-             
-
-          <p> Company Number: 212 537 65 13 05 </p>
+          <p>{{$t('footer.companyName')}}</p>
+          <p>{{$t('footer.personName')}}</p>
+          <p>{{$t('footer.office')}}</p>
+          <p>{{$t('footer.companyNumber')}}</p>
         </div>
       </el-col>
     </el-row>
   </div>
 </template>
+
+<script>
+  export default {
+    data () {
+    }
+  }
+</script>
+
 
 <style>
   .footer-wrapper {

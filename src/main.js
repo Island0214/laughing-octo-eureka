@@ -8,15 +8,27 @@ import ElementUI from 'element-ui'
 import './index.css'
 // import 'element-ui/lib/theme-default/index.css'
 import '../theme/index.css'
+import VueI18n from 'vue-i18n'
 
 Vue.use(Vuex)
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.use(VueI18n)
+
+const i18n = new VueI18n({
+  locale: 'ar',  // 语言标识
+  messages: {
+    'zh': require('../common/lang/zh'),
+    'en': require('../common/lang/en'),
+    'ar': require('../common/lang/ar')
+  }
+})
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
+  i18n,
   template: '<App/>',
-  components: { App }
+  components: {App}
 })

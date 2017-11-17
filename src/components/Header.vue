@@ -1,11 +1,11 @@
 <template>
   <div class="header-wrapper">
     <img src="../assets/logo.jpg"/>
-    <h3>S.Y. ventures Capital</h3>
+    <h3>{{$t('header.h3')}}</h3>
     <div class="buttons-wrapper">
-      <el-button size="small" round>English</el-button>
-      <el-button size="small" round>Chinese</el-button>
-      <el-button size="small" round>Arabic</el-button>
+      <el-button size="small" round>{{$t('header.English')}}</el-button>
+      <el-button size="small" round>{{$t('header.Chinese')}}</el-button>
+      <el-button size="small" round>{{$t('header.Arabic')}}</el-button>
     </div>
   </div>
 </template>
