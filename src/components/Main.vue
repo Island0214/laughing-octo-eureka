@@ -3,7 +3,7 @@
     <el-row :gutter="20" style="margin-top: 50px;">
       <el-col :span="12">
         <div>
-          <h1> We are <span>S.Y. ventures CAPITAL</span></h1>
+          <h1>{{$t('main.title_first')}}<span>{{$t('main.title_second')}}</span></h1>
 
         </div>
       </el-col>
@@ -11,13 +11,13 @@
       <div class="intro-wrapper">
         <ul>
           <li>
-            provides specialized real estate and development services, including project management, construction management, urban planning and facilities management supported by a technical team focusing on large scale projects in Africa & all over the world.
+            {{$t('main.firstIntro')}}
           </li>
           <li>
-            Our staff are highly-focused and experienced professionals with an exceptional track record of seamlessly delivering even the largest and most complex projects, from planning to construction, with strict adherence to international standards and practices.
+            {{$t('main.secondIntro')}}
           </li>
           <li>
-            S.Y. are a relationship-driven business and are dedicated to ensuring that our clients’ best interests are always our highest priority. The strength of our client relationships are the foundation of our success.
+            {{$t('main.thirdIntro')}}
           </li>
         </ul>
       </div>
