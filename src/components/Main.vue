@@ -37,9 +37,7 @@
     margin-left: 47%;
     white-space: nowrap;
   }
-  .main-part-wrapper h1 span {
-    color: #ffd04b;
-  }
+
 
   .main-part-wrapper p {
     position: relative;

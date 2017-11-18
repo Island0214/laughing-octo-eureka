@@ -7,3 +7,15 @@ li {
   text-decoration: none;
   outline: none;
 }
+
+
+span {
+  color: #ffd04b;
+}
+
+.el-step__icon-inner {
+  /*border: 1px solid #000000;*/
+  /*border-radius: 100px;*/
+  /*width: 30px;*/
+  /*height: 30px;*/
+}

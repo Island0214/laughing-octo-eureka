@@ -17,14 +17,6 @@
   </div>
 </template>
 
-<script>
-  export default {
-    data () {
-    }
-  }
-</script>
-
-
 <style>
   .footer-wrapper {
     /*background-color: #eee;*/

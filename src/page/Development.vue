@@ -1,25 +1,23 @@
 <template>
-
   <div>
     <Header/>
     <NavBar/>
-    <Main/>
+    <Managers/>
     <Footer/>
   </div>
-
 </template>
 
 <script>
   import Header from '../components/Header.vue'
   import NavBar from '../components/NavBar.vue'
-  import Main from '../components/Main.vue'
+  import Managers from '../components/Managers.vue'
   import Footer from '../components/Footer.vue'
   export default {
-    name: 'Home',
+    name: 'Development',
     components: {
       Header,
       NavBar,
-      Main,
+      Managers,
       Footer
     }
   }
