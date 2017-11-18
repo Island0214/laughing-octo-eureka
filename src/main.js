@@ -9,6 +9,7 @@ import './index.css'
 // import 'element-ui/lib/theme-default/index.css'
 import '../theme/index.css'
 import VueI18n from 'vue-i18n'
+// import store from './store'
 
 Vue.use(Vuex)
 Vue.config.productionTip = false
@@ -16,7 +17,7 @@ Vue.use(ElementUI)
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-  locale: 'ar',  // 语言标识
+  locale: 'en', // 语言标识
   messages: {
     'zh': require('../common/lang/zh'),
     'en': require('../common/lang/en'),
@@ -27,6 +28,7 @@ const i18n = new VueI18n({
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  // store,
   router,
   i18n,
   template: '<App/>',
