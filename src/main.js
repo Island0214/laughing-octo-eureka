@@ -18,7 +18,7 @@ Vue.use(VueI18n)
 Vue.use(VueRouter)
 
 const i18n = new VueI18n({
-  locale: 'en',  // 语言标识
+  locale: 'en', // 语言标识
   messages: {
     'zh': require('../common/lang/zh'),
     'en': require('../common/lang/en'),
@@ -29,6 +29,7 @@ const i18n = new VueI18n({
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
+  // store,
   router,
   i18n,
   template: '<App/>',

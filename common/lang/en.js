@@ -20,5 +20,12 @@ module.exports = {
     PROFESSIONALS: 'PROFESSIONALS',
     ENVIRONMENTAL: 'ENVIRONMENTAL',
     PARTNERS: 'PARTNERS'
+  },
+  main: {
+    title_first: ' We are ',
+    title_second: 'S.Y. ventures CAPITAL',
+    firstIntro: 'provides specialized real estate and development services, including project management, construction management, urban planning and facilities management supported by a technical team focusing on large scale projects in Africa & all over the world.',
+    secondIntro: 'Our staff are highly-focused and experienced professionals with an exceptional track record of seamlessly delivering even the largest and most complex projects, from planning to construction, with strict adherence to international standards and practices.',
+    thirdIntro: 'S.Y. are a relationship-driven business and are dedicated to ensuring that our clients’ best interests are always our highest priority. The strength of our client relationships are the foundation of our success.'
   }
 }
