@@ -3,9 +3,9 @@
     <img src="../assets/logo.jpg"/>
     <h3>{{$t('header.h3')}}</h3>
     <div class="buttons-wrapper">
-      <el-button size="small" round @click="changeLanguageToEng">{{$t('header.English')}}</el-button>
-      <el-button size="small" round @click="changeLanguageToZH">{{$t('header.Chinese')}}</el-button>
-      <el-button size="small" round @click="changeLanguageToAR">{{$t('header.Arabic')}}</el-button>
+      <el-button size="small" round @click="changeLanguageTo('en')">{{$t('header.English')}}</el-button>
+      <el-button size="small" round @click="changeLanguageTo('zh')">{{$t('header.Chinese')}}</el-button>
+      <el-button size="small" round @click="changeLanguageTo('ar')">{{$t('header.Arabic')}}</el-button>
     </div>
   </div>
 </template>
@@ -13,14 +13,8 @@
 <script>
   export default {
     methods: {
-      changeLanguageToEng () {
-        this.$i18n.locale = 'en'
-      },
-      changeLanguageToZH () {
-        this.$i18n.locale = 'zh'
-      },
-      changeLanguageToAR () {
-        this.$i18n.locale = 'ar'
+      changeLanguageTo (newLang) {
+        this.$i18n.locale = newLang
       }
     }
   }
