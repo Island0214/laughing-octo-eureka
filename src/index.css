@@ -6,6 +6,8 @@ body {
 li {
   text-decoration: none;
   outline: none;
+  margin-top: 10px;
+  color: #666;
 }
 
 
@@ -19,3 +21,4 @@ span {
   /*width: 30px;*/
   /*height: 30px;*/
 }
+
