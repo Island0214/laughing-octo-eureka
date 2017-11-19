@@ -29,8 +29,9 @@
     },
     methods: {
       pushTo (route, index) {
-        this.activeIndex2 = index
         this.$router.push(route)
+        this.activeIndex2 = index
+
 //        alert('finish')
       }
     }
