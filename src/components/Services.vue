@@ -1,7 +1,7 @@
 <template>
   <div style="position: relative; display: inline-block;">
     <div class="service-intro-wrapper">
-      <h1 style="text-align: left; margin-left: -210px">{{$t('services.title_one')}}<span>{{$t('services.title_two')}}</span></h1>
+      <h1 style="text-align: center;">{{$t('services.title_one')}}<span>{{$t('services.title_two')}}</span></h1>
       <p>{{$t('services.title_intro')}}</p>
     </div>
 
