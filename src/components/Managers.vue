@@ -164,8 +164,24 @@
     position: absolute;
     top: 50%;
     transform: translate(0%, -50%);
-    padding: 0;
     margin: 0;
     padding: 10px;
+  }
+  .el-step .el-step__head .el-step__line {
+    height: 2px;
+    top: 11px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+  .el-step__icon {
+    display: block;
+    line-height: 28px;
+    border: 1px solid rgb(217, 213, 191);
+    z-index: 1000;
+    width: 26px;
+    height: 26px;
+    border-radius: 26px;
+    background-color: #ffffff;
   }
 </style>
