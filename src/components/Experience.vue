@@ -1,14 +1,14 @@
 <template>
   <div>
-    <h1 style="margin-top: 50px">We have <span>Experience</span></h1>
+    <h1 style="margin-top: 50px">{{$t('experience.title_first')}}<span>{{$t('experience.title_second')}}</span></h1>
     <el-row :gutter="20">
       <el-col :span="12">
         <div class="experience-wrappper">
           <ul>
-            <li>We maximise land use, increasing a developments’ efficiency while also considering impact, sustainability, local culture and architecture.</li>
-            <li>S.Y. consider every aspect of planning, urban design and infrastructure planning as vital to the success of any development scheme.</li>
-            <li>S.Y. team consists of urban designers, project managers, architects, infrastructure and engineers certified to international standards. </li>
-            <li>S.Y. professional team, consultants and contractors have been in countless development project worldwide, including  of airport.road bridge and mixed use developments.</li>
+            <li>{{$t('experience.li_1')}}</li>
+            <li>{{$t('experience.li_2')}}</li>
+            <li>{{$t('experience.li_3')}}</li>
+            <li>{{$t('experience.li_4')}}</li>
           </ul>
         </div>
       </el-col>

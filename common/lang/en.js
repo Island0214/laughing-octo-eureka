@@ -70,5 +70,35 @@ module.exports = {
     fourth_title: 'Facilities Management',
     fourth_li_one: 'S.Y.operates a Facilities Management Division, staffed with professionals with extensive experience in the management of a full range of property types (commercial office, retail hospitality, residential and industrial).',
     fourth_li_two: 'Properties are required to be managed to a professional standard to ensure both operational efficiency and, over the long term, value enhancement. Standard operating procedures are prepared for each assigned tasks and a series of checklists devised to ensure these are fully complied with.'
+  },
+  experience: {
+    title_first: 'We have ',
+    title_second: 'Experience',
+    li_1: 'We maximise land use, increasing a developments’ efficiency while also considering impact, sustainability, local culture and architecture.',
+    li_2: 'S.Y. consider every aspect of planning, urban design and infrastructure planning as vital to the success of any development scheme.',
+    li_3: 'S.Y. team consists of urban designers, project managers, architects, infrastructure and engineers certified to international standards.',
+    li_4: 'S.Y. professional team, consultants and contractors have been in countless development project worldwide, including  of airport.road bridge and mixed use developments.'
+  },
+  planners: {
+    title_first: 'WE are',
+    title_second: ' Planners',
+    p1: 'Urban Planning is a S.Y. flagship consultancy service. We offer a full range of urban planning and design services across all aspects of the development process. Our primary aim is to understand and execute the vision and objectives of our clients’, and we back this up by fully applying our significant resources to each project in order to achieve the best outcomes.',
+    p2: 'multidisciplinary team of experienced professional urban planners, urban designers, and infrastructure engineers with an in-depth and robust appreciation of urban planning systems and process in Africa, and specifically Africa.',
+    p3: 'S.Y. take an holistic view to analysing the potential consequences of each development we undertake from social and environmental perspectives in order to generate creative, financially viable and, most importantly sustainable schemes.',
+    p4: 'Master Plans',
+    p5: 'S.Y. help cut through complex local requirements to assist our clients in introducing new ideas, approaches, products, and technologies, while providing the leadership and management support necessary to ensure that international standards are being followed.',
+    p6: 'A full-scale Master Plan requires an accurate inventory of the population and study of local land use patterns, economic and demographic predictions as well as a thorough understanding of environmental issues and anticipation of infrastructure changes that may occur.',
+    p7: 'The development of Master Plans is necessary to fulfil the following functions; ',
+    p8: 'Establish development potential of land',
+    p9: 'Fulfil local and social requirements',
+    p10: 'Safeguard the real estate value',
+    p11: 'Enhance the value of the real estate',
+    p12: 'The Master Plan may be used for any one of the following purposes; ',
+    p13: 'Investment Licenses',
+    p14: 'Project Finance',
+    p15: 'Land Use Right Certificate',
+    p16: 'Facilitate Divestment',
+    p17: 'Construction Permit',
+    p18: 'Development Control'
   }
 }
