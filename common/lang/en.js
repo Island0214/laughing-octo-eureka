@@ -54,5 +54,21 @@ module.exports = {
     chart_5: 'Financial Performance',
     chart_6: 'Marketing & Communications',
     chart_7: 'Government, Authorities & Stakeholder Engagement'
+  },
+  services: {
+    title_one: 'WE PROVIDE ',
+    title_two: 'CORE SERVICES',
+    title_intro: 'We place client relationships at the forefront of everything we do. We take great care to assemble the right teams around every project to ensure strict adherence to the highest international standards and practices of project management.',
+    first_title: 'Project Management',
+    first_li_one: 'Our highly-experienced project managers take full responsibility for all aspects of projects under their care and are accountable for the successful completion and delivery of every project we undertake.',
+    first_li_two: 'Our project managers are dedicated to providing clients with a comprehensive project brief as well as utilising one of the most reliable and cost-effective vendor management services available anywhere in the world.',
+    second_title: 'Construction Management',
+    second_li_one: 'Our managers work directly with contractors to successfully deliver projects to the agreed Project Execution Plan. We lead the management of all package contractors and administer all trade contracts, from commencement to completion, ensuring top quality services delivered to the highest standards and safety requirements. For larger and more complex projects, contracts are split up into smaller packages to be coordinated and managed directly by S.Y. acting as construction manager.',
+    third_title: 'Technical Services',
+    third_li_one: 'Our highly-qualified and experienced technical services team provides expert and premium advice focused on a wide range of projects. We are able to ensure up front Design Management is carried out to identify and solve buildability and operational issues early on, creating opportunities to optimise quality and realise time and cost savings.',
+    third_li_two: 'Our strengths extend to conducting comprehensive due diligence inspections and reports on investment or disposal of assets and compiling comprehensive feasibility studies for new construction.',
+    fourth_title: 'Facilities Management',
+    fourth_li_one: 'S.Y.operates a Facilities Management Division, staffed with professionals with extensive experience in the management of a full range of property types (commercial office, retail hospitality, residential and industrial).',
+    fourth_li_two: 'Properties are required to be managed to a professional standard to ensure both operational efficiency and, over the long term, value enhancement. Standard operating procedures are prepared for each assigned tasks and a series of checklists devised to ensure these are fully complied with.'
   }
 }
