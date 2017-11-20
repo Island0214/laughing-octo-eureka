@@ -1,7 +1,6 @@
 <template>
   <div class="nav-wrapper">
     <el-menu
-      :defaultActive="activeIndex2"
       class="el-menu-demo"
       mode="horizontal"
       style="text-align: center;position: relative; display: inline-block;"
